@@ -46,4 +46,22 @@ int main(){
 			cout <<a3c[k] << " | ";
 			k++;
 		}while(k<5);cout << endl;
+		
+	cout << endl;	
+	cout << "MATRIKS R :"<<endl;
+	int l=0;
+		do{
+			cout <<Ra1c[l] << " | ";
+			l++;
+		}while(l<5);cout<< endl;
+	int m=0;
+		do{
+			cout <<Ra2c[m]<< " | ";
+			m++;
+		}while(m<5);cout<< endl;
+	int n=0;
+		do{
+			cout <<Ra3c[n]<< " | ";
+			n++;
+		}while(n<5);cout<< endl;
 }
